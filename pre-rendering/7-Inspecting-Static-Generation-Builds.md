@@ -21,5 +21,4 @@ Client-side page transitions will not call getStaticProps as only the exported J
 
 * If you navigate directly to the page route,the HTML file is served.
 
-* If you navigate to the page route fromadifferent route,the page is created client side using the JavaScript and JSON prefetched from the server. There is no 
-* additional request to the server.
+* If you navigate to the page route fromadifferent route,the page is created client side using the JavaScript and JSON prefetched from the server. There is no additional request to the server.
