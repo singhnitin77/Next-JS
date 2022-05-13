@@ -133,7 +133,6 @@ export async function getStaticProps() {
     props: {
       products: data,
     },
-    revalidate: 30,
   };
 }
 ```
@@ -177,7 +176,6 @@ export async function getStaticProps(context) {
     props: {
       product: data,
     },
-    revalidate: 10,
   };
 }
 
